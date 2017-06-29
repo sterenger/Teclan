@@ -1,0 +1,74 @@
+/* Custom page footer */
+.footer {
+    clear: both;
+    height: 10%;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+.footer-menu{
+    float: right;
+    margin-right : 20%;
+    margin-top: -2%;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.footer-logo{
+    width: 100%;
+    margin-top: -25%;
+    margin-left: 100%;
+    height: inherit;
+}
+.footer-menu li {
+    margin: -4px !important; 
+}
+.footer-menu li a {
+    color: #DD5046 !important;
+    text-transform: uppercase;
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (max-width: 768px) {
+    /* Remove the padding we set earlier */
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .navbar-brand{
+        width: 45% !important;
+        position: relative;
+        top: 0;
+        left: 24%;
+    }
+    #navbar{
+        margin-top: 12%;
+        text-align: center;
+    }
+}
+.logo{
+    width: 100%;
+    height: auto;
+    margin-top: -12%;
+}
+nav {
+    margin: -4px;
+    width: 100%;
+    margin-bottom: 10%;
+}
+#navbar:first-child ul li.active,
+#navbar ul li.textMenu,
+#navbar ul li.btnInscreve{
+    margin-right: 10px;
+}
+.social li a img{
+    width: 70%;
+}
+.social li{
+    margin-left: -30px !important;
+}
+.social{
+    margin-left: 40px;
+    float: right !important;
+}
+div.tab-content > div.tab-pane {
+    padding: 20px;
+    height: 260px;
+}

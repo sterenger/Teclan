@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.globalScreen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.firstPart {
+    background-image: url("../img/backgroundUp.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.secondPart {
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    margin-top: 4%;
+}
+
+.logo {
+    margin-left: 20%;
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    /* margin-right: 0; */
+    width: 100%;
+    /* margin-left: 0; */
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header {
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.btnInscreve {
+    background-image: -moz-linear-gradient( -22deg, rgb(240, 104, 60) 0%, rgb(239, 61, 104) 100%);
+    background-image: -webkit-linear-gradient( -22deg, rgb(240, 104, 60) 0%, rgb(239, 61, 104) 100%);
+    background-image: -ms-linear-gradient( -22deg, rgb(240, 104, 60) 0%, rgb(239, 61, 104) 100%);
+    font-size: 12px;
+    font-family: "GothamHTF-Medium";
+    border-radius: 40px;
+    border: 0px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+}
+
+.textMenu {}
+
+.Text {
+    text-align: center;
+    color: white;
+    padding-top: 16%;
+}
+
+.bigText {
+    font-family: "GothamHTF-Bold";
+    font-size: 37px;
+}
+
+.smallText {
+    padding-top: 1.5%;
+    font-size: 17px;
+    font-family: "GothamHTF-Light";
+}
+
+.btnInscreveCenter {
+    border-radius: 40px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "GothamHTF-Medium";
+    color: white;
+    outline: none;
+}
+
+.textSizeEfont {
+    font-style: "GothamHTF-Book";
+    font-size: 30px;
+}
+
+.barStyle {
+    border: 1px solid #bcbcbc;
+    width: 10%;
+    margin: auto;
+}
+
+.tab-content {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.onglet {
+    padding-top: 5%;
+    height: 70%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.nav-tabs {
+    width: 100%;
+}
+
+.divTable {
+    display: table;
+}
+
+.imgTable {
+    width: 200px;
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 20%;
+}
+
+.descriptionImg {
+    vertical-align: middle;
+    display: table-cell;
+    padding-right: 10%;
+}
+
+.spanBigText {
+    font-family: "GothamHTF-Bold";
+    font-size: 20px;
+}
+
+.spanSmallText {
+    font-family: "GothamHTF-Book";
+    font-size: 12px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: black;
+    cursor: default;
+    background-color: transparent;
+    border: 0px;
+    font-family: "GothamHTF-Bold";
+    border-bottom: 3px solid #ec5f5d;
+    /* border-bottom-color: transparent; */
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: white;
+    cursor: default;
+    background-color: transparent;
+    font-family: "GothamHTF-Bold";
+    border-bottom: 3px solid #ffffff;
+}
+
+.navbar-nav > li >a:hover {
+    background-color: transparent;
+}
+
+.blackFont {
+    color: black;
+}
+
+#navbar ul li.active a {
+    background-color: transparent !important;
+}
+
+#navbar ul li a {
+    color: white;
+}
+
+.whiteFont {
+    color: white;
+}
+
+.nav-tabs {
+    border: 0px;
+}
+
+.footer {
+    background-color: #2f2f2f;
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+@font-face {
+    font-family: GothamHTF-Black;
+    src: url(../fonts/GothamHTF-Black.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-BlackItalic;
+    src: url(../fonts/GothamHTF-BlackItalic.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-Bold;
+    src: url(../fonts/GothamHTF-Bold.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-BoldCondensed;
+    src: url(../fonts/GothamHTF-BoldCondensed.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-BoldItalic;
+    src: url(../fonts/GothamHTF-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-Book;
+    src: url(../fonts/GothamHTF-Book.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-BookCondensed;
+    src: url(../fonts/GothamHTF-BookCondensed.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-BookItalic;
+    src: url(../fonts/GothamHTF-BookItalic.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-Light;
+    src: url(../fonts/GothamHTF-Light.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-LightCondensed;
+    src: url(../fonts/GothamHTF-LightCondensed.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-LightItalic;
+    src: url(../fonts/GothamHTF-LightItalic.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-Medium;
+    src: url(../fonts/GothamHTF-Medium.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-MediumCondensed;
+    src: url(../fonts/GothamHTF-MediumCondensed.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-Thin;
+    src: url(../fonts/GothamHTF-Thin.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-ThinItalic;
+    src: url(../fonts/GothamHTF-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-Ultra;
+    src: url(../fonts/GothamHTF-Ultra.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-UltraItalic;
+    src: url(../fonts/GothamHTF-UltraItalic.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-XLight;
+    src: url(../fonts/GothamHTF-XLight.otf);
+}
+
+@font-face {
+    font-family: GothamHTF-XLightItalic;
+    src: url(../fonts/GothamHTF-XLightItalic.otf);
+}
